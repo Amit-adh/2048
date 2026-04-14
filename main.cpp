@@ -16,9 +16,9 @@
 #include <cstdlib>
 #include <ctime>
 
-#include "game.h"
-#include "renderer.h"
-#include "input_handler.h"
+#include "core/game.h"
+#include "gui/renderer.h"
+#include "input/input_handler.h"
 
 #pragma comment(lib, "gdiplus.lib")
 #pragma comment(lib, "gdi32.lib")

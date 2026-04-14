@@ -5,7 +5,7 @@
  */
 
 #include "renderer.h"
-#include "game.h"
+#include "../core/game.h"
 
 // Returns the background color, text color, and font size for a given tile value
 TileTheme getTileTheme(int value) {

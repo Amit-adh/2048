@@ -5,7 +5,7 @@
  */
 
 #include "game.h"
-#include "renderer.h"
+#include "../gui/renderer.h"
 
 // Initializes both base classes (Board and ScoreManager) and game state
 Game::Game()

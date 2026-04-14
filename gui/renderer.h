@@ -16,7 +16,7 @@
 
 #include <windows.h>
 #include <gdiplus.h>
-#include "tile.h"
+#include "../core/tile.h"
 
 using namespace Gdiplus;
 

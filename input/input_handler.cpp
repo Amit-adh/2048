@@ -5,8 +5,8 @@
  */
 
 #include "input_handler.h"
-#include "game.h"
-#include "renderer.h"
+#include "../core/game.h"
+#include "../gui/renderer.h"
 
 // Handles keyboard input: arrow keys/WASD for movement, C to continue after winning
 bool InputHandler::handleKeyDown(Game& game, WPARAM key, HWND hwnd) {
